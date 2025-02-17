@@ -1,0 +1,23 @@
+{
+  "name": "express-graphql-sequelize-mysql2-example",
+  "version": "1.0.0",
+  "description": "A project example using Express, GraphQL, Sequelize, and MySQL2",
+  "main": "index.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "nodemon index.js"
+  },
+  "dependencies": {
+    "express": "^4.17.1",
+    "graphql": "^15.5.0",
+    "graphql-tools": "^8.2.0",
+    "sequelize": "^6.6.5",
+    "mysql2": "^2.2.5",
+    "apollo-server-express": "^2.25.2"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.12"
+  },
+  "author": "Your Name",
+  "license": "ISC"
+}
